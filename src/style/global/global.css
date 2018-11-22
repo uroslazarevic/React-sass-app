@@ -10,10 +10,3 @@ body {
     body a:hover, body a:focus {
       color: #000;
       text-decoration: none; }
-
-body {
-  margin: none; }
-
-.test h3 {
-  background: #f4f4f4;
-  text-align: center; }

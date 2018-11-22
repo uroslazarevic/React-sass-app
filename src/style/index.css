@@ -1,3 +1,19 @@
+body {
+  margin: none; }
+  body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  body a {
+    color: #000;
+    text-decoration: none; }
+    body a:hover, body a:focus {
+      color: #000;
+      text-decoration: none; }
+
+body {
+  margin: none; }
+
 .test h3 {
   background: #f4f4f4;
   text-align: center; }
