@@ -1,9 +1,10 @@
-// import Home from './home';
-import App from './app';
+import Home from './Home/Home';
+import NotFound from './NotFound/NotFound';
+import AppRouter from './Router/AppRouter';
 
 export {
   // Components
-  // Home,
-  App
-  
-}
+  AppRouter,
+  NotFound,
+  Home,
+};

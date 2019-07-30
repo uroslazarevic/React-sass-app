@@ -1,4 +1,4 @@
-// import { 
+// import {
 //   SEARCH_LOCATION,
 //   SEARCH_CATEGORIES,
 //   SEARCH_PLACES

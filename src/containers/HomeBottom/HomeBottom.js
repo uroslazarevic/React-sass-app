@@ -4,7 +4,7 @@
 // // import Actions
 // import { getSearchedCollections, getLocationDetails } from 'actions';
 // // Import Components
-// import { Collections, CategoriesList, PopularRestaurants } from 'components'; 
+// import { Collections, CategoriesList, PopularRestaurants } from 'components';
 
 // class HomeBottom extends Component {
 //   constructor(props) {
@@ -26,15 +26,15 @@
 //       getSearchedCollections({city_id: newProps.cityId});
 //       // Get New Location Details
 //       getLocationDetails({ entity_id: newProps.cityId });
-//     } 
+//     }
 //   }
-  
+
 //   renderCollections() {
 //     const { searchedCollections, city: { cityId, cityName } } = this.props;
-//     return searchedCollections ? 
-//     <Collections 
+//     return searchedCollections ?
+//     <Collections
 //       urlPath={this.props.urlPath}
-//       collections={searchedCollections} 
+//       collections={searchedCollections}
 //       city = {{ cityName, cityId}} /> : <div className="container">Collections not available</div>
 //   }
 
@@ -50,9 +50,9 @@
 
 //   renderPopularRestoraunts() {
 //     const { searchedLocationDetails, city: { cityId, cityName } } = this.props;
-//     return searchedLocationDetails.length !== 0 ? 
-//     <PopularRestaurants 
-//       data={searchedLocationDetails} 
+//     return searchedLocationDetails.length !== 0 ?
+//     <PopularRestaurants
+//       data={searchedLocationDetails}
 //       city = {{ cityId, cityName }}
 //       /> : <div className="container">Popular Restaurants not available</div>
 //   }

@@ -3,7 +3,6 @@
 
 // export const SEARCH_LOCATION = 'SEARCH_LOCATION';
 
-
 // export function getSearchedLocation ({locationTerm = 'Bra', count='10'} = {}) {
 //   const data = {
 //     q: locationTerm,
